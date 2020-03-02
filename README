@@ -1,0 +1,11 @@
+This directory contains three .mat files
+
+Statistics.mat contains a series of files:
+
+cice-area/lat/lon which are CICE grid coordinates
+
+MFS which is the mean floe size at each lat/lon point, month, and year
+alpha the power-law decay coefficient ""
+moment - which are the computed moments from the CLD. There are four of them for each lat/lon/month/year, corresponding to the indices in the moment_values file. 
+moment_values = [0,1,2,3] are the four moments used in "moment"
+momcoeff - the conversion from CLD to FND moment required for each moment_value
